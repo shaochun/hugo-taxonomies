@@ -1,3 +1,7 @@
+# Fix for Hugo 0.88.1
+
+It's Hugo 0.88.1 ready.
+
 # Manage HUGO taxonomies like a boss
 
 Live view: [http://hugo-taxonomies.netlify.com/](http://hugo-taxonomies.netlify.com/)

@@ -33,7 +33,7 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         {{ $brand := .Title | urlize }}
         <ul>
-          {{ range ($.Site.GetPage "taxonomyTerm" "brands" $brand).Pages }}
+          {{ range ($.Site.GetPage "brands" $brand).Pages }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>

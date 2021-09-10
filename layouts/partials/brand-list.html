@@ -4,7 +4,7 @@
     <strong>Brand{{ if gt (len .) 1 }}s{{ end }}:</strong>
     {{ range $ind,$val := . }}
       {{$brand := $val | urlize }}
-      {{- with $.Site.GetPage "taxonomyTerm" "brands" $brand}}
+      {{- with $.Site.GetPage "brands" $brand}}
         <a href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end -}}
     {{ end }}
